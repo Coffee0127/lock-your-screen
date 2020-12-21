@@ -14,3 +14,17 @@
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (prefers-color-scheme: light) {
+
+  body {
+    background-color: white;
+    color: black;
+  }
+
+}
